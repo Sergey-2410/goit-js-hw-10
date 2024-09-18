@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+.label {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 355px;
+  height: 40px;
+}
+.fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  max-width: 365px;
+}
+.btn {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #fff;
+  margin-top: 24px;
+}
